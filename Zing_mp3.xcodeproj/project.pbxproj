@@ -8,20 +8,66 @@
 
 /* Begin PBXBuildFile section */
 		F60E2E631D88D65F00A0E50A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60E2E621D88D65F00A0E50A /* AppDelegate.swift */; };
-		F60E2E651D88D65F00A0E50A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60E2E641D88D65F00A0E50A /* ViewController.swift */; };
 		F60E2E681D88D65F00A0E50A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F60E2E661D88D65F00A0E50A /* Main.storyboard */; };
 		F60E2E6A1D88D65F00A0E50A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F60E2E691D88D65F00A0E50A /* Assets.xcassets */; };
 		F60E2E6D1D88D65F00A0E50A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F60E2E6B1D88D65F00A0E50A /* LaunchScreen.storyboard */; };
+		F61839A81D8CE93F00DA327B /* blue-bubbles.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F61839A71D8CE93F00DA327B /* blue-bubbles.jpg */; };
+		F67444941D8E52ED00488449 /* local1x.png in Resources */ = {isa = PBXBuildFile; fileRef = F67444921D8E52ED00488449 /* local1x.png */; };
+		F67444951D8E52ED00488449 /* local2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F67444931D8E52ED00488449 /* local2x.png */; };
+		F67444981D8E546600488449 /* online2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F67444961D8E546600488449 /* online2x.png */; };
+		F67444991D8E546600488449 /* onlinex1.png in Resources */ = {isa = PBXBuildFile; fileRef = F67444971D8E546600488449 /* onlinex1.png */; };
+		F699AA4F1D8CD44500974513 /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F699AA4E1D8CD44500974513 /* AudioPlayer.swift */; };
+		F699AA511D8CD7DB00974513 /* AudioPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F699AA501D8CD7DB00974513 /* AudioPlayerView.swift */; };
+		F6A679761D8A3E960009E928 /* duration.png in Resources */ = {isa = PBXBuildFile; fileRef = F6A6796E1D8A3E960009E928 /* duration.png */; };
+		F6A679771D8A3E960009E928 /* maxVolume.png in Resources */ = {isa = PBXBuildFile; fileRef = F6A6796F1D8A3E960009E928 /* maxVolume.png */; };
+		F6A679781D8A3E960009E928 /* miniVolume.png in Resources */ = {isa = PBXBuildFile; fileRef = F6A679701D8A3E960009E928 /* miniVolume.png */; };
+		F6A679791D8A3E960009E928 /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F6A679711D8A3E960009E928 /* music.mp3 */; };
+		F6A6797A1D8A3E960009E928 /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = F6A679721D8A3E960009E928 /* pause.png */; };
+		F6A6797B1D8A3E960009E928 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = F6A679731D8A3E960009E928 /* play.png */; };
+		F6A6797C1D8A3E960009E928 /* thumb.png in Resources */ = {isa = PBXBuildFile; fileRef = F6A679741D8A3E960009E928 /* thumb.png */; };
+		F6A6797D1D8A3E960009E928 /* thumbHightLight.png in Resources */ = {isa = PBXBuildFile; fileRef = F6A679751D8A3E960009E928 /* thumbHightLight.png */; };
+		F6CBB89C1D8AE84000BE69A9 /* TableViewOnline.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CBB89B1D8AE84000BE69A9 /* TableViewOnline.swift */; };
+		F6CBB8A41D8AEA6200BE69A9 /* TFHpple.m in Sources */ = {isa = PBXBuildFile; fileRef = F6CBB89F1D8AEA6200BE69A9 /* TFHpple.m */; };
+		F6CBB8A51D8AEA6200BE69A9 /* TFHppleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = F6CBB8A11D8AEA6200BE69A9 /* TFHppleElement.m */; };
+		F6CBB8A61D8AEA6200BE69A9 /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = F6CBB8A31D8AEA6200BE69A9 /* XPathQuery.m */; };
+		F6CBB8A81D8AEB1700BE69A9 /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F6CBB8A71D8AEB1700BE69A9 /* libxml2.2.dylib */; };
+		F6CBB8AA1D8AFA9B00BE69A9 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CBB8A91D8AFA9B00BE69A9 /* Song.swift */; };
+		F6CBB8AC1D8B187200BE69A9 /* TableViewLocal.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CBB8AB1D8B187200BE69A9 /* TableViewLocal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F60E2E5F1D88D65F00A0E50A /* Zing_mp3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zing_mp3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F60E2E621D88D65F00A0E50A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F60E2E641D88D65F00A0E50A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F60E2E671D88D65F00A0E50A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F60E2E691D88D65F00A0E50A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F60E2E6C1D88D65F00A0E50A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F60E2E6E1D88D65F00A0E50A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F61839A71D8CE93F00DA327B /* blue-bubbles.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "blue-bubbles.jpg"; path = "../../../Downloads/blue-bubbles.jpg"; sourceTree = "<group>"; };
+		F67444921D8E52ED00488449 /* local1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = local1x.png; sourceTree = "<group>"; };
+		F67444931D8E52ED00488449 /* local2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = local2x.png; sourceTree = "<group>"; };
+		F67444961D8E546600488449 /* online2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = online2x.png; sourceTree = "<group>"; };
+		F67444971D8E546600488449 /* onlinex1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = onlinex1.png; sourceTree = "<group>"; };
+		F699AA4E1D8CD44500974513 /* AudioPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
+		F699AA501D8CD7DB00974513 /* AudioPlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioPlayerView.swift; sourceTree = "<group>"; };
+		F6A6796E1D8A3E960009E928 /* duration.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = duration.png; sourceTree = "<group>"; };
+		F6A6796F1D8A3E960009E928 /* maxVolume.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = maxVolume.png; sourceTree = "<group>"; };
+		F6A679701D8A3E960009E928 /* miniVolume.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = miniVolume.png; sourceTree = "<group>"; };
+		F6A679711D8A3E960009E928 /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
+		F6A679721D8A3E960009E928 /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause.png; sourceTree = "<group>"; };
+		F6A679731D8A3E960009E928 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		F6A679741D8A3E960009E928 /* thumb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumb.png; sourceTree = "<group>"; };
+		F6A679751D8A3E960009E928 /* thumbHightLight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumbHightLight.png; sourceTree = "<group>"; };
+		F6CBB89B1D8AE84000BE69A9 /* TableViewOnline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewOnline.swift; sourceTree = "<group>"; };
+		F6CBB89D1D8AEA6100BE69A9 /* Zing_mp3-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Zing_mp3-Bridging-Header.h"; sourceTree = "<group>"; };
+		F6CBB89E1D8AEA6200BE69A9 /* TFHpple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHpple.h; sourceTree = "<group>"; };
+		F6CBB89F1D8AEA6200BE69A9 /* TFHpple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHpple.m; sourceTree = "<group>"; };
+		F6CBB8A01D8AEA6200BE69A9 /* TFHppleElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHppleElement.h; sourceTree = "<group>"; };
+		F6CBB8A11D8AEA6200BE69A9 /* TFHppleElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHppleElement.m; sourceTree = "<group>"; };
+		F6CBB8A21D8AEA6200BE69A9 /* XPathQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPathQuery.h; sourceTree = "<group>"; };
+		F6CBB8A31D8AEA6200BE69A9 /* XPathQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPathQuery.m; sourceTree = "<group>"; };
+		F6CBB8A71D8AEB1700BE69A9 /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = ../../../../usr/lib/libxml2.2.dylib; sourceTree = "<group>"; };
+		F6CBB8A91D8AFA9B00BE69A9 /* Song.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		F6CBB8AB1D8B187200BE69A9 /* TableViewLocal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewLocal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6CBB8A81D8AEB1700BE69A9 /* libxml2.2.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +85,7 @@
 		F60E2E561D88D65F00A0E50A = {
 			isa = PBXGroup;
 			children = (
+				F6CBB8A71D8AEB1700BE69A9 /* libxml2.2.dylib */,
 				F60E2E611D88D65F00A0E50A /* Zing_mp3 */,
 				F60E2E601D88D65F00A0E50A /* Products */,
 			);
@@ -54,14 +102,54 @@
 		F60E2E611D88D65F00A0E50A /* Zing_mp3 */ = {
 			isa = PBXGroup;
 			children = (
+				F61839A71D8CE93F00DA327B /* blue-bubbles.jpg */,
+				F6CBB8961D8AE79E00BE69A9 /* Hpple */,
+				F6A6796D1D8A3E960009E928 /* Archive-2 */,
 				F60E2E621D88D65F00A0E50A /* AppDelegate.swift */,
-				F60E2E641D88D65F00A0E50A /* ViewController.swift */,
+				F6CBB89B1D8AE84000BE69A9 /* TableViewOnline.swift */,
+				F6CBB8AB1D8B187200BE69A9 /* TableViewLocal.swift */,
+				F6CBB8A91D8AFA9B00BE69A9 /* Song.swift */,
+				F699AA4E1D8CD44500974513 /* AudioPlayer.swift */,
+				F699AA501D8CD7DB00974513 /* AudioPlayerView.swift */,
 				F60E2E661D88D65F00A0E50A /* Main.storyboard */,
 				F60E2E691D88D65F00A0E50A /* Assets.xcassets */,
 				F60E2E6B1D88D65F00A0E50A /* LaunchScreen.storyboard */,
 				F60E2E6E1D88D65F00A0E50A /* Info.plist */,
 			);
 			path = Zing_mp3;
+			sourceTree = "<group>";
+		};
+		F6A6796D1D8A3E960009E928 /* Archive-2 */ = {
+			isa = PBXGroup;
+			children = (
+				F67444961D8E546600488449 /* online2x.png */,
+				F67444971D8E546600488449 /* onlinex1.png */,
+				F67444921D8E52ED00488449 /* local1x.png */,
+				F67444931D8E52ED00488449 /* local2x.png */,
+				F6A6796E1D8A3E960009E928 /* duration.png */,
+				F6A6796F1D8A3E960009E928 /* maxVolume.png */,
+				F6A679701D8A3E960009E928 /* miniVolume.png */,
+				F6A679711D8A3E960009E928 /* music.mp3 */,
+				F6A679721D8A3E960009E928 /* pause.png */,
+				F6A679731D8A3E960009E928 /* play.png */,
+				F6A679741D8A3E960009E928 /* thumb.png */,
+				F6A679751D8A3E960009E928 /* thumbHightLight.png */,
+			);
+			path = "Archive-2";
+			sourceTree = "<group>";
+		};
+		F6CBB8961D8AE79E00BE69A9 /* Hpple */ = {
+			isa = PBXGroup;
+			children = (
+				F6CBB89E1D8AEA6200BE69A9 /* TFHpple.h */,
+				F6CBB89F1D8AEA6200BE69A9 /* TFHpple.m */,
+				F6CBB8A01D8AEA6200BE69A9 /* TFHppleElement.h */,
+				F6CBB8A11D8AEA6200BE69A9 /* TFHppleElement.m */,
+				F6CBB8A21D8AEA6200BE69A9 /* XPathQuery.h */,
+				F6CBB8A31D8AEA6200BE69A9 /* XPathQuery.m */,
+				F6CBB89D1D8AEA6100BE69A9 /* Zing_mp3-Bridging-Header.h */,
+			);
+			name = Hpple;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,9 +210,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F67444981D8E546600488449 /* online2x.png in Resources */,
+				F6A6797C1D8A3E960009E928 /* thumb.png in Resources */,
 				F60E2E6D1D88D65F00A0E50A /* LaunchScreen.storyboard in Resources */,
+				F6A679761D8A3E960009E928 /* duration.png in Resources */,
+				F6A6797B1D8A3E960009E928 /* play.png in Resources */,
+				F67444951D8E52ED00488449 /* local2x.png in Resources */,
+				F67444941D8E52ED00488449 /* local1x.png in Resources */,
+				F6A6797A1D8A3E960009E928 /* pause.png in Resources */,
+				F6A679781D8A3E960009E928 /* miniVolume.png in Resources */,
+				F6A6797D1D8A3E960009E928 /* thumbHightLight.png in Resources */,
+				F6A679771D8A3E960009E928 /* maxVolume.png in Resources */,
 				F60E2E6A1D88D65F00A0E50A /* Assets.xcassets in Resources */,
+				F6A679791D8A3E960009E928 /* music.mp3 in Resources */,
+				F67444991D8E546600488449 /* onlinex1.png in Resources */,
 				F60E2E681D88D65F00A0E50A /* Main.storyboard in Resources */,
+				F61839A81D8CE93F00DA327B /* blue-bubbles.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +236,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F60E2E651D88D65F00A0E50A /* ViewController.swift in Sources */,
+				F6CBB8AA1D8AFA9B00BE69A9 /* Song.swift in Sources */,
+				F6CBB89C1D8AE84000BE69A9 /* TableViewOnline.swift in Sources */,
 				F60E2E631D88D65F00A0E50A /* AppDelegate.swift in Sources */,
+				F699AA4F1D8CD44500974513 /* AudioPlayer.swift in Sources */,
+				F6CBB8A41D8AEA6200BE69A9 /* TFHpple.m in Sources */,
+				F699AA511D8CD7DB00974513 /* AudioPlayerView.swift in Sources */,
+				F6CBB8AC1D8B187200BE69A9 /* TableViewLocal.swift in Sources */,
+				F6CBB8A61D8AEA6200BE69A9 /* XPathQuery.m in Sources */,
+				F6CBB8A51D8AEA6200BE69A9 /* TFHppleElement.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,10 +359,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
 				INFOPLIST_FILE = Zing_mp3/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "NguyenDinhQuan.Zing-mp3";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Zing_mp3/Zing_mp3-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -262,10 +374,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
 				INFOPLIST_FILE = Zing_mp3/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "NguyenDinhQuan.Zing-mp3";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Zing_mp3/Zing_mp3-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -288,6 +403,7 @@
 				F60E2E731D88D65F00A0E50A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
